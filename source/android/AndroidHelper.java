@@ -32,6 +32,8 @@ class AndroidHelper
   // PARAMS: 
   // pszFeatureName - A feature string to query. See more:
   // http://developer.android.com/reference/android/content/pm/PackageManager.html
+  // For instance use: "android.hardware.touchscreen" to return whether or not
+  // the current device supports touch screen or not.
   //===========================================================================
   public boolean HasFeature(String pszFeatureName)
   {    
@@ -62,7 +64,8 @@ class AndroidHelper
   //===========================================================================
   // HasGamePad
   //
-  // DESCRIPTION: Checks if there is a gamepad attached to the system.
+  // DESCRIPTION: Checks if there is at least one gamepad attached to the 
+  //              system.
   //===========================================================================
   public boolean HasGamePad()
   {
