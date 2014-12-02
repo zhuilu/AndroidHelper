@@ -1,0 +1,12 @@
+include:
+#include <s3eTypes.h>
+  
+functions:
+int GetModeType() 0 run_on_os_thread
+bool HasFeature(const char* pszFeatureName) false run_on_os_thread
+bool IsTV() false run_on_os_thread
+bool HasGamePad() false run_on_os_thread
+void Share(const char* pszSubject, const char* pszTitle, const char* pszText) 0 run_on_os_thread
+
+
+
