@@ -14,7 +14,7 @@ class AndroidHelper
   // GetModeType
   //
   // DESCRIPTION: Calls and retuns whatever uiModeManager.getCurrentModeType()
-  //              has to say.
+  //              has to say  ok
   //===========================================================================
   public int GetModeType()
   {
